@@ -1,0 +1,7 @@
+# See https://onbjerg.github.io/foundry-book/reference/config.html
+[default]
+optimizer = true
+optimizer_runs = 20000
+lib-paths = "node_modules"
+contracts = "contracts"
+remappings = ["@openzeppelin/contracts=node_modules/@openzeppelin/contracts"]
